@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana, Dejavu, Sans, sans-serif;
+}
+
+.pbgtext {
+    background-color: #ffa7a7;
+    color: #000;
+
+}
+
+.pbgtext.lg {
+    font-size: 24px;
+}
+
+#numtwo {
+    color: blue;
+    font-size: 36px;
+
+}
+
+#numfour {
+    background-color: #c8f372;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
