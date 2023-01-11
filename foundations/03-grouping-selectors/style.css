@@ -1,0 +1,15 @@
+.bg-b,
+.bg-y {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
+
+.bg-b {
+    background-color: black;
+    color: white;
+}
+
+.bg-y {
+    background-color: yellow;
+    color: black;
+}
