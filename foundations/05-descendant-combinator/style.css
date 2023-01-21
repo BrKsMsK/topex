@@ -2,4 +2,9 @@ div .text {
     background-color: yellow;
     color: red;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
 }
