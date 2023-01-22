@@ -1,19 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
+.header {
+  display: flex;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+  padding: 20px;
+}
+
+.header ul {
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.footer ul {
+  list-style: none;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.right-links {
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.footer .right-links {
+  position: absolute;
+  right: 10px;
+}
+
+
+
 img {
-  width: 600px;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  Color: #171717;
+  margin: 10px;
+}
+
+a:hover {
+  background-color: #f7be7a;
+}
+
+button:hover {
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+}
+
+
+.content {
+  min-width: auto;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  align-items: center;
 }
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
+  padding: 10px;
   border-radius: 8px;
   background: #eee;
 }
@@ -22,6 +87,6 @@ input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
-  width: 400px;
+  min-width: 400px;
   margin-bottom: 16px;
 }
